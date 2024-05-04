@@ -1,0 +1,122 @@
+:root {
+  --main-bg-color: #e02c6d;
+  --second-bg-color: #0a0826;
+  --main-icon-color: #fb8200;
+  --main-text-color: #3a3a3a;
+  --second-text-color: #787885;
+  --main-fonts: "Poppins", sans-serif;
+  --second-fonts: "Manrope", sans-serif;
+}
+
+.primary_btn {
+  background-color: var(--main-bg-color);
+  color: #fff;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 40px;
+}
+
+.primary_btn i {
+  padding-left: 3px;
+  transition: all 0.3s ease;
+}
+
+.primary_btn:hover {
+  color: #fff;
+}
+
+.primary_btn:hover > i {
+  transform: translateX(7px);
+}
+
+.section_header {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+.collection .card {
+  background: #fff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.collection .card:hover {
+  color: black;
+}
+
+.collection .card img {
+  width: 100%;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.collection .card h2 {
+  margin: 0px;
+}
+.collection .card .card-title {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.collection .card .card-price {
+  font-family: var(--second-fonts);
+  font-weight: 400;
+}
+.collection .card_star i {
+  font-size: 10px;
+  color: var(--main-icon-color);
+}
+
+.collection .card .card-rating {
+  font-size: 12px;
+  margin-left: 10px;
+  display: inline-block;
+}
+.collection .card .card-description {
+  font-size: 14px;
+  margin-bottom: 0;
+  color: var(--second-text-color);
+}
+
+/*---------- 
+    footer
+----------*/
+footer {
+  padding: 50px 0;
+  background: var(--second-bg-color);
+  text-align: center;
+  color: #fff;
+}
+.footer_head {
+  margin: 5px;
+}
+.footer_icon i {
+  background: rgba(255, 255, 255, 0.151);
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  margin: 5px;
+  transition: all 0.2s ease-in;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-text {
+  font-size: 12px;
+}
+
+.facebook:hover {
+  background: #1877f2;
+}
+.instagram:hover {
+  background: #e4405f;
+}
+.twitter:hover {
+  background: #1da1f2;
+}
+.youtube:hover {
+  background: #cd201f;
+}

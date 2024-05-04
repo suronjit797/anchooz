@@ -1,0 +1,46 @@
+.hero {
+  min-height: 100vh;
+}
+.hero_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.hero_text h1 {
+  font-size: 58px;
+}
+
+
+.homeFrom .homeFromImage {
+  max-width: 350px;
+  width: 95%;
+  display: block;
+  margin: auto;
+}
+
+.homeFrom .row {
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.homeCard {
+  text-align: center;
+  transition: all 0.2s ease-out;
+  box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.12);
+  padding: 20px 10px;
+  border-radius: 15px;
+  height: 100%;
+}
+.homeCard:hover {
+  box-shadow: 0 1rem 3rem rgba(31, 45, 61, 0.125);
+  transform: translateY(-10px);
+}
+
+.homeCard .icon {
+  font-size: 48px;
+}
+
+.homeBanner {
+  /* height: calc(100vh - 100px); */
+}

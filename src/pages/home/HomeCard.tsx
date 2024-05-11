@@ -1,4 +1,3 @@
-import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { LiaHandsHelpingSolid } from "react-icons/lia";
 import { MdOutlineCleanHands, MdOutlineNotificationsActive, MdOutlineSecurity } from "react-icons/md";

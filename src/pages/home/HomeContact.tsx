@@ -31,6 +31,8 @@ const HomeContact = () => {
             confirmButtonText: "OK",
             timer: 2000,
           });
+          // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+          // @ts-ignore
           e.target.reset();
         },
         () => {

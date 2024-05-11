@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { TProduct } from "../../interface/productInterface";
 import axios from "axios";
 import { useParams } from "react-router-dom";
-import { Button, Col, Form, Row } from "react-bootstrap";
+import {  Col,  Row } from "react-bootstrap";
 import RatingStars from "../../components/RatingStar";
 
 const initialState: TProduct = {
